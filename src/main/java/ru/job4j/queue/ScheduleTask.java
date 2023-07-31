@@ -11,7 +11,6 @@ public class ScheduleTask {
     }
 
     public void addTask(Task task) {
-        PriorityQueue<Task> tasks = new PriorityQueue<>();
         queue.offer(task);
     }
 
